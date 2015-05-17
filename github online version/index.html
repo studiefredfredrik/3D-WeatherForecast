@@ -59,9 +59,9 @@
             //camera.attachControl(canvas, true); // If uncommented the user will be able to move camera
 
             // Ground is mapped from heightmap, then covered with a grass texture
-            var ground = BABYLON.Mesh.CreateGroundFromHeightMap("ground", "https://raw.githubusercontent.com/studiefredfredrik/3D-WeatherForecast-JSWebsite/master/heightMap/Heightmap.jpg", 100, 100, 100, 0, 10, scene, false);
+            var ground = BABYLON.Mesh.CreateGroundFromHeightMap("ground", "http://htmlpreview.github.io/?https://raw.githubusercontent.com/studiefredfredrik/3D-WeatherForecast-JSWebsite/master/heightMap/Heightmap.jpg", 100, 100, 100, 0, 10, scene, false);
             var groundMaterial = new BABYLON.StandardMaterial("ground", scene);
-            groundMaterial.diffuseTexture = new BABYLON.Texture("https://raw.githubusercontent.com/studiefredfredrik/3D-WeatherForecast-JSWebsite/master/textures/grass_texture.jpg", scene);
+            groundMaterial.diffuseTexture = new BABYLON.Texture("http://htmlpreview.github.io/?https://raw.githubusercontent.com/studiefredfredrik/3D-WeatherForecast-JSWebsite/master/textures/grass_texture.jpg", scene);
             groundMaterial.diffuseTexture.uScale = 6;
             groundMaterial.diffuseTexture.vScale = 6;
             groundMaterial.specularColor = new BABYLON.Color3(0, 0, 0);
@@ -89,7 +89,7 @@
             var skybox = BABYLON.Mesh.CreateBox("skyBox", 100.0, scene);
             skyboxMaterial = new BABYLON.StandardMaterial("skyBox", scene);
             skyboxMaterial.backFaceCulling = false;
-            skyboxMaterial.reflectionTexture = new BABYLON.CubeTexture("https://raw.githubusercontent.com/studiefredfredrik/3D-WeatherForecast-JSWebsite/master/textures/skybox", scene);
+            skyboxMaterial.reflectionTexture = new BABYLON.CubeTexture("http://htmlpreview.github.io/?https://raw.githubusercontent.com/studiefredfredrik/3D-WeatherForecast-JSWebsite/master/textures/skybox", scene);
             skyboxMaterial.reflectionTexture.coordinatesMode = BABYLON.Texture.SKYBOX_MODE;
             skyboxMaterial.diffuseColor = new BABYLON.Color3(0, 0, 0);
             skyboxMaterial.specularColor = new BABYLON.Color3(0, 0, 0);
@@ -171,7 +171,7 @@
             particleSystem = new BABYLON.ParticleSystem("particles", 2000, scene);
 
             //Texture of each particle
-            particleSystem.particleTexture = new BABYLON.Texture("https://raw.githubusercontent.com/studiefredfredrik/3D-WeatherForecast-JSWebsite/master/textures/raindrop2.gif", scene);
+            particleSystem.particleTexture = new BABYLON.Texture("http://htmlpreview.github.io/?https://raw.githubusercontent.com/studiefredfredrik/3D-WeatherForecast-JSWebsite/master/textures/raindrop2.gif", scene);
 
             // Where the particles come from
             particleSystem.emitter = emitter; // the starting object, the emitter
