@@ -5,9 +5,9 @@ The forecast is displayed in a 3D model, simulating the given weather, only a fe
 The model is rendered with babylon.js.
 
 ## Screenshot
-![screenshot]()
-![screenshot]()
-![screenshot]()
+![screenshot](https://github.com/studiefredfredrik/3D-WeatherForecast/blob/master/screenshots/Light%20clouds.PNG?raw=true)
+![screenshot](https://github.com/studiefredfredrik/3D-WeatherForecast/blob/master/screenshots/Rain.PNG?raw=true)
+![screenshot](https://github.com/studiefredfredrik/3D-WeatherForecast/blob/master/screenshots/sunny.PNG?raw=true)
 
 ## Instructions
 If you would like to download the code and try it for yourself:
