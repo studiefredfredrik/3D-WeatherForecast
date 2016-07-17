@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    <title>3D weather forecast</title>
+
+    <!-- css -->
+    <style>
+        html, body {
+            overflow: hidden;
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+
+        #renderCanvas {
+            width: 100%;
+            height: 100%;
+            touch-action: none;
+        }
+    </style>
+
+    <!-- vendor-->
+    <script src="javascripts/vendor/hand.minified-1.2.js"></script>
+    <script src="javascripts/vendor/cannon.js"></script>
+    <script src="javascripts/vendor/oimo.js"></script>
+    <script src="javascripts/vendor/babylon.js"></script>
+    <script src="javascripts/vendor/jquery.min.js"></script>
+
+    <!-- js -->
+    <script src="javascripts/core.js"></script>
+
+</head>
+<body>
+    <canvas id="renderCanvas"></canvas>
+</body>
+</html>

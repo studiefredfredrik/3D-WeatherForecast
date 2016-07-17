@@ -1,0 +1,11 @@
+{
+  "name": "3D-WeatherForecast",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "~4.13.4"
+  }
+}
